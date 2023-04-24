@@ -1,3 +1,10 @@
 #landing {
-    background-color: $color-tertiary;
+    background-color: $color-primary;
+    
+    .background-primary{
+        background: url("../../public/Fotor_AI.png");
+        background-repeat:no-repeat;
+        background-size:contain;
+        background-position:center;
+    }
 }
