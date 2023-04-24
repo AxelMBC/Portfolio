@@ -1,0 +1,12 @@
+.btn-primary {
+    color: $color-tertiary;
+    background-color: $color-primary;
+    border-color: $color-primary;
+    font-weight: bolder;
+
+    &:hover {
+        color: $color-tertiary;
+        background-color: $color-secondary;
+        border-color: $color-secondary;
+    }
+}
