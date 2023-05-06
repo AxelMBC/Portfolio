@@ -1,10 +1,10 @@
 #landing {
     background-color: $color-primary;
-    
-    .background-primary{
-        background: url("../../public/Fotor_AI.png");
-        background-repeat:no-repeat;
-        background-size:contain;
-        background-position:center;
+    ul {
+        margin-bottom: 0px !important;
+    }
+
+    .title {
+        color: white;
     }
 }

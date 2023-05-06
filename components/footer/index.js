@@ -8,37 +8,30 @@ const Footer = () => {
     <div className="main-footer">
       <div className="container">
         <div className="row">
-          <div className="col-md-3 col-sm-6">
-            <h4>Lorem Ipsum</h4>
+          <div className="col-10" />
+          <div className="col-4">
+            <h4>Work</h4>
             <ul className="list-unstyled">
-              <li>Lorem Ipsum</li>
               <li>Lorem Ipsum</li>
               <li>Lorem Ipsum</li>
               <li>Lorem Ipsum</li>
             </ul>
           </div>
-          <div className="col-md-3 col-sm-6">
-            <h4>Lorem Ipsum</h4>
+          <div className="col-4">
+            <h4>About</h4>
             <ul className="list-unstyled">
-              <li>Lorem Ipsum</li>
               <li>Lorem Ipsum</li>
               <li>Lorem Ipsum</li>
               <li>Lorem Ipsum</li>
             </ul>
           </div>
-          <div className="col-md-3 col-sm-6">
-            <h4>Lorem Ipsum</h4>
-            <ul className="list-unstyled">
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
-            </ul>
+          <div className="col-4 h-100 align-self-center">
+            <h4>Form</h4>
           </div>
         </div>
         {/* Footer Bottom */}
         <div className="footer-bottom">
-          <p className="text-xs-center">&copy;{new Date().getFullYear()} Personal Portfolio App - All Rights Reserved</p>
+          <p className="text-xs-center">&copy;{new Date().getFullYear()} Axel Barraza - All Rights Reserved</p>
         </div>
       </div>
     </div>
