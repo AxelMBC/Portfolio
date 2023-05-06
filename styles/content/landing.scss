@@ -1,3 +1,10 @@
 #landing {
-    background-color: $color-tertiary;
+    background-color: $color-primary;
+    ul {
+        margin-bottom: 0px !important;
+    }
+
+    .title {
+        color: white;
+    }
 }
