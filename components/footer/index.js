@@ -14,13 +14,11 @@ const Footer = () => {
             <ul className="list-unstyled">
               <li>Lorem Ipsum</li>
               <li>Lorem Ipsum</li>
-              <li>Lorem Ipsum</li>
             </ul>
           </div>
           <div className="col-4">
             <h4>About</h4>
             <ul className="list-unstyled">
-              <li>Lorem Ipsum</li>
               <li>Lorem Ipsum</li>
               <li>Lorem Ipsum</li>
             </ul>
