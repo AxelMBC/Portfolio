@@ -5,30 +5,35 @@ import LogoImg from "public/axel-logo.jpeg"
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-primary row justify-content-center text-center">
+    <nav className="navbar navbar-primary row justify-content-end text-end py-3">
       <div className="col">
-        <div className="row ">
-          <div className="col align-self-center py-2">
+        <div className="row">
+          <div className="col-auto align-self-center">
             <Link href="/">
               <Image src={LogoImg} alt="Axel Logo Image" width={200} height={18} />
             </Link>
           </div>
-
-          <ul className="col list-unstyled">
+          <div className="col">
             <div className="row justify-content-end">
-              <button type="button" className="btn btn-primary nav-item col-auto py-4 px-5" onClick={() => Router.push("/")}>
-                Home
-              </button>
+              <div className="col-auto">
+                <button type="button" className="btn btn-primary nav-item" onClick={() => Router.push("/")}>
+                  Projects
+                </button>
+              </div>
 
-              <button type="button" className="btn btn-primary nav-item col-auto py-4 px-5" onClick={() => Router.push("/projects/ai/book-summary")}>
-                Projects
-              </button>
+              <div className="col-auto">
+                <button type="button" className="btn btn-primary nav-item" onClick={() => Router.push("/projects/ai/book-summary")}>
+                  Experience
+                </button>
+              </div>
 
-              <button type="button" className="btn btn-primary nav-item col-auto py-4 px-5" onClick={() => Router.push("/about")}>
-                About
-              </button>
+              <div className="col-auto">
+                <button type="button" className="btn btn-primary nav-item" onClick={() => Router.push("/about")}>
+                  About
+                </button>
+              </div>
             </div>
-          </ul>
+          </div>
         </div>
       </div>
     </nav>
