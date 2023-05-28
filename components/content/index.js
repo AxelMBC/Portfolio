@@ -3,7 +3,6 @@ const Landing = () => (
     <div className="row justify-content-center">
       <div className="col">
         <div className="row">
-          <div className="col-6"></div>
           <div className="col-6">
             <div className="d-flex justify-content-center align-items-center vh-100 background-primary">
               <div className="background-white">
