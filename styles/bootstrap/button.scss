@@ -1,12 +1,15 @@
 .btn-primary {
-    color: $color-tertiary;
+    color: white;
     background-color: $color-primary;
     border-color: $color-primary;
     font-weight: bolder;
+    font-family: Teko,sans-serif;
+    padding: 0;
 
     &:hover {
         color: $color-tertiary;
-        background-color: $color-secondary;
-        border-color: $color-secondary;
+        background-color: $color-primary;
+        border-color: $color-primary;
+        opacity: .3;
     }
 }
