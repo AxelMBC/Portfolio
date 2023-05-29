@@ -6,11 +6,10 @@ const Layout = ({ id = "", children }) => {
     <>
       <div id={id} className="container-fluid">
         <div className="row justify-content-center">
-          <div className="col-12 col-sm-10 col-lg-8">
-            <div className="row">
-              <MainHeader />
-              <div className="content">{children}</div>
-            </div>
+          <div className="col-12 col-sm-11 col-lg-10">
+            <MainHeader />
+
+            <div className="row">{children}</div>
           </div>
         </div>
       </div>

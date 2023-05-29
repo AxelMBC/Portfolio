@@ -5,7 +5,7 @@ import LogoImg from "public/axel-logo.jpeg"
 
 const Header = () => {
   return (
-    <nav className="navbar navbar-primary row justify-content-end text-end py-3">
+    <nav className="navbar navbar-primary row justify-content-end text-end py-4">
       <div className="col">
         <div className="row">
           <div className="col-auto align-self-center">
@@ -16,19 +16,19 @@ const Header = () => {
           <div className="col">
             <div className="row justify-content-end">
               <div className="col-auto">
-                <button type="button" className="btn btn-primary nav-item" onClick={() => Router.push("/")}>
+                <button type="button" className="btn btn-primary px-4 nav-item" onClick={() => Router.push("/")}>
                   Projects
                 </button>
               </div>
 
               <div className="col-auto">
-                <button type="button" className="btn btn-primary nav-item" onClick={() => Router.push("/projects/ai/book-summary")}>
+                <button type="button" className="btn btn-primary px-4 nav-item" onClick={() => Router.push("/projects/ai/book-summary")}>
                   Experience
                 </button>
               </div>
 
               <div className="col-auto">
-                <button type="button" className="btn btn-primary nav-item" onClick={() => Router.push("/about")}>
+                <button type="button" className="btn btn-primary px-4 nav-item" onClick={() => Router.push("/about")}>
                   About
                 </button>
               </div>

@@ -1,19 +1,33 @@
-const Landing = () => (
-  <div className="container-fluid">
-    <div className="row justify-content-center">
-      <div className="col">
-        <div className="row">
-          <div className="col-6">
-            <div className="d-flex justify-content-center align-items-center vh-100 background-primary">
-              <div className="background-white">
-                <h1 className="title">GREAT THINGS ARE COMING...</h1>
-              </div>
+import Typewriter from "typewriter-effect"
+import Image from "next/image"
+import landingImage from "public/Photo_Portrait.jpg"
+
+const Landing = () => {
+  return (
+    <div className="container-fluid">
+      <div className="row justify-content-center">
+        <div className="col">
+          <div className="img-bg">
+            <div className="main-message">
+              <h2>
+                Hello, I&apos;m{" "}
+                <Typewriter
+                  options={{
+                    strings: ["Axel", "Web Developer", "UI/UX Designer", "AI Prompt Engineer"],
+                    autoStart: true,
+                    loop: true
+                  }}
+                  className="inline"
+                />
+              </h2>
             </div>
+            <div className="d-flex justify-content-end align-items-center vh-100 background-primary"></div>
+            {/* <Image alt="landing-image" src={landingImage} width={844} height={880} /> */}
           </div>
         </div>
       </div>
     </div>
-  </div>
-)
+  )
+}
 
 export default Landing
