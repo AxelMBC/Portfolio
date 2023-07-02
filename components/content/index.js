@@ -1,6 +1,7 @@
 import Typewriter from "typewriter-effect"
 import Image from "next/image"
 import landingImage from "public/Photo_Portrait.jpg"
+import Button from "react-bootstrap/Button"
 
 const Landing = () => {
   return (
